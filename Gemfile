@@ -67,3 +67,22 @@ group :development do
   # gem "spring"
 end
 
+
+gem "solidus_auth_devise"
+
+gem "solidus_core", "~> 3.2"
+gem "solidus_backend", "~> 3.2"
+gem "solidus_api", "~> 3.2"
+gem "solidus_sample", "~> 3.2"
+gem "canonical-rails"
+gem "solidus_support"
+gem "truncate_html"
+gem "view_component", "~> 2.46"
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "apparition", "~> 0.6.0", github: "twalpole/apparition"
+  gem "rails-controller-testing", "~> 1.0.5"
+  gem "rspec-activemodel-mocks", "~> 1.1.0"
+  gem "solidus_dev_support", "~> 2.5"
+end
