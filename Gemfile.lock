@@ -482,6 +482,10 @@ GEM
       webdrivers (>= 4.4)
     solidus_sample (3.2.2)
       solidus_core (= 3.2.2)
+    solidus_stripe (4.3.0)
+      activemerchant (>= 1.105)
+      solidus_core (>= 2.3, < 4)
+      solidus_support (~> 0.8)
     solidus_support (0.9.1)
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
@@ -563,6 +567,7 @@ DEPENDENCIES
   solidus_core (~> 3.2)
   solidus_dev_support (~> 2.5)
   solidus_sample (~> 3.2)
+  solidus_stripe (~> 4.3)
   solidus_support
   sprockets-rails
   stimulus-rails

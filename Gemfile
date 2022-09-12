@@ -86,3 +86,5 @@ group :development, :test do
   gem "rspec-activemodel-mocks", "~> 1.1.0"
   gem "solidus_dev_support", "~> 2.5"
 end
+
+gem "solidus_stripe", "~> 4.3"
